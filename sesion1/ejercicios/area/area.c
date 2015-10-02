@@ -12,7 +12,6 @@ int main(int argc, char * argv []){
     
     /* area= PI * R² */
     
-    area = pi * radio * radio;
 
     /* Mostramos el resultado por pantalla */
     printf("Area del circulo con radio %f es %f\n", radio, area);
