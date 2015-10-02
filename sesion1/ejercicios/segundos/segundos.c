@@ -5,17 +5,13 @@
 int main(int argc, char * argv []){
 
     /* Declaracion de variables (Ya lo veremos mas adelante */
-    float pi = 3.141592;
-    float radio,area;
-
-    radio=2;
+    int total_segundos=661;
+    printf("%d segundos son: ",total_segundos);
+    int horas, minutos, segundos;
     
-    /* area= PI * R² */
     
-    area = pi * radio * radio;
-
     /* Mostramos el resultado por pantalla */
-    printf("Area del circulo con radio %f es %f\n", radio, area);
+    printf("%d horas, %d minutos y %d segundos\n", horas, minutos, segundos);
 
     /* Acaba la ejecucion del programa */
     return 0;
