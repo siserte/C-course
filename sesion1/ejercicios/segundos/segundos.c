@@ -9,13 +9,6 @@ int main(int argc, char * argv []){
     printf("%d segundos son: ",total_segundos);
     int horas, minutos, segundos;
     
-    horas=total_segundos/3600;
-    total_segundos=total_segundos%3600;
-
-    minutos=total_segundos/60;
-    total_segundos=total_segundos%60;
-
-    segundos=total_segundos;
     
     /* Mostramos el resultado por pantalla */
     printf("%d horas, %d minutos y %d segundos\n", horas, minutos, segundos);
